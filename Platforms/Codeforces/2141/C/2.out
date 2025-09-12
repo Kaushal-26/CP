@@ -1,0 +1,7 @@
+6
+pushfront a[1]
+min
+pushback a[0]
+min
+popfront
+min

@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "Kaushal_26"
+            ],
+            "compilerPath": "/usr/bin/g++-13",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}

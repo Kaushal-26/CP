@@ -1,0 +1,514 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+
+        // Ahead loop
+        "Cin": {
+                "prefix": "Cin",
+                "body": [
+                        "std::cin"
+                ]
+        },
+        "Cout": {
+                "prefix": "Cout",
+                "body": [
+                        "std::cout"
+                ]
+        },
+        "FOR LOOP": {
+		"prefix": "FOR",
+		"body": [
+                        "for (int i = ${1:0}; i < ${2:N}; ++i) {",
+                        "\t$0", "}"
+		]
+	},
+        "FOR LOOP STEP": {
+		"prefix": "FORS",
+		"body": [
+                        "for (int i = ${1:0}; i < ${2:N}; i += ${3:steps}) {",
+                        "\t$0", "}"
+		],
+	},
+	"FOR var LOOP": {
+		"prefix": "FORi",
+		"body": [
+                        "for (int ${1:i} = ${2:0}; ${1} < ${3:N}; ++${1}) {",
+                        "\t$0", "}"
+		]
+	},
+        "FOR var LOOP STEP": {
+		"prefix": "FORSi",
+		"body": [
+                        "for (int ${1:i} = ${2:0}; ${1} < ${3:N}; ${1} += ${4:steps}) {",
+                        "\t$0", "}"
+		],
+	},
+
+        // Reverse loop
+        "ROF LOOP": {
+		"prefix": "ROF",
+		"body": [
+                        "for (int i = ${1:N} - 1; i >= ${2:0}; --i) {",
+                        "\t$0", "}"
+		]
+	},
+        "ROF LOOP STEP": {
+		"prefix": "ROFS",
+		"body": [
+                        "for (int i = ${1:N} - 1; i >= ${2:0}; i -= ${3:steps}) {",
+                        "\t$0", "}"
+                ]
+	},
+	"ROF var LOOP": {
+		"prefix": "ROFi",
+		"body": [
+                        "for (int ${1:i} = ${2:N} - 1; ${1} >= ${3:0}; --${1}) {",
+                        "\t$0", "}"
+		]
+	},
+        "ROF var LOOP STEP": {
+		"prefix": "ROFSi",
+		"body": [
+                        "for (int ${1:i} = ${2:N} - 1; ${1} >= ${3:0}; ${1} -= ${4:steps}) {",
+                        "\t$0", "}"
+                ]
+	},
+
+        // cont loop
+        "VAR LOOP": {
+                "prefix": "REP",
+                "body": [
+                        "for (auto &${1:el} : ${2:container}) {",
+                        "\t$0", "}"
+                ],
+        },
+
+        // dir loop
+        "FOR dist": {
+                "prefix": "FORdir",
+                "body": [
+                        "for (int e = 0; e < ${1:4}; ++e) {",
+                        "\tint n${2:i} = ${2} + dx[e], n${3:j} = ${3} + dy[e];",
+                        "\tif(0 <= min(n${2}, n${3}) && n${2} <= ${4:N} && n${3} <= ${5:M}) {",
+                        "\t$0", "\t}", "}"
+                ]
+        },
+
+        // STL
+        "sort": {
+                "prefix": "Sort",
+                "body": [
+                        "sort(${1:a}.begin(), ${1}.end());"
+                ],
+                "description": "sort"
+        },
+        "array_sort": {
+                "prefix": "aSort",
+                "body": [
+                        "sort(${1:a}, ${1} + ${2:N});"
+                ],
+                "description": "asort"
+        },
+
+        "reverse": {
+                "prefix": "Reverse",
+                "body": [
+                  "reverse(${1:a}.begin(), ${1}.end());"
+                ],
+                "description": "reverse"
+        },
+        "array_reverse": {
+                "prefix": "aReverse",
+                "body": [
+                  "reverse(${1:a}, ${1} + ${2:N});"
+                ],
+                "description": "areverse"
+        },
+
+        "rotate": {
+                "prefix": "Rotate",
+                "body": [
+                  "rotate(${1:a}.begin(), ${1}.begin() + ${2:x}, ${1}.end());"
+                ],
+                "description": "rotate"
+        },
+        "sum": {
+                "prefix": "Accumulate",
+                "body": [
+                  "accumulate(${1:a}.begin(), ${1}.end(), ${2:0});"
+                ],
+                "description": "sum"
+        },
+        "array_sum": {
+                "prefix": "aAccumulate",
+                "body": [
+                  "accumulate(${1:a}, ${1} + ${2:N}, ${3:0});"
+                ],
+                "description": "asum"
+        },
+
+        "iota": {
+                "prefix": "Iota",
+                "body": [
+                  "iota(${1:a}.begin(), ${1}.end(), ${2:0});"
+                ],
+                "description": "iota"
+        },
+        "array_iota": {
+                "prefix": "aIota",
+                "body": [
+                  "iota(${1:a}, ${1} + ${2:N}, ${3:0});"
+                ],
+                "description": "aiota"
+        },
+
+        "lower_bound": {
+                "prefix": "Lower_bound",
+                "body": [
+                  "lower_bound(${1:a}.begin(), ${1}.end(), ${2:0});"
+                ],
+                "description": "lower_bound"
+        },
+        "array_lower_bound": {
+                "prefix": "aLower_bound",
+                "body": [
+                  "lower_bound(${1:a}, ${1} + ${2:N}, ${3:0});"
+                ],
+                "description": "alower_bound"
+        },
+
+        "upper_bound": {
+                "prefix": "Upper_bound",
+                "body": [
+                  "upper_bound(${1:a}.begin(), ${1}.end(), ${2:0});"
+                ],
+                "description": "upper_bound"
+        },
+        "array_upper_bound": {
+                "prefix": "aUpper_bound",
+                "body": [
+                  "upper_bound(${1:a}, ${1} + ${2:N}, ${3:0});"
+                ],
+                "description": "aupper_bound"
+        },
+
+        "fill": {
+                "prefix": "Fill",
+                "body": [
+                  "fill(${1:a}.begin(), ${1}.end(), ${2:0});"
+                ],
+                "description": "fill"
+        },
+        "array_fill": {
+                "prefix": "aFill",
+                "body": [
+                  "fill(${1:a}, ${1} + ${2:N}, ${3:0});"
+                ],
+                "description": "afill"
+        },
+
+        "max_element": {
+                "prefix": "Max_element",
+                "body": [
+                  "max_element(${1:a}.begin(), ${1}.end());"
+                ],
+                "description": "max_element"
+        },
+        "array_max_element": {
+                "prefix": "aMax_element",
+                "body": [
+                  "max_element(${1:a}, ${1} + ${2:N});"
+                ],
+                "description": "amax_element"
+        },
+
+        "min_element": {
+                "prefix": "Min_element",
+                "body": [
+                  "min_element(${1:a}.begin(), ${1}.end());"
+                ],
+                "description": "min_element"
+        },
+        "array_min_element": {
+                "prefix": "aMin_element",
+                "body": [
+                  "min_element(${1:a}, ${1} + ${2:N});"
+                ],
+                "description": "amin_element"
+        },
+
+        "is_sorted": {
+                "prefix": "Is_sorted",
+                "body": [
+                  "is_sorted(${1:a}.begin(), ${1}.end());"
+                ],
+                "description": "is_sorted"
+        },
+        "next_permutation": {
+                "prefix": "Next_permutation",
+                "body": [
+                  "next_permutation(${1:a}.begin(), ${1}.end());"
+                ],
+                "description": "next_permutation"
+        },
+        "array_next_permutation": {
+                "prefix": "aNext_permutation",
+                "body": [
+                  "next_permutation(${1:a}, ${1} + ${2:N});"
+                ],
+                "description": "anext_permutation"
+        },
+
+        "count": {
+                "prefix": "Count",
+                "body": [
+                  "count(${1:a}.begin(), ${1}.end(), ${2:value});"
+                ],
+                "description": "count"
+        },
+        "unique": {
+                "prefix": "Unique",
+                "body": [
+                  "${1:a}.erase(unique(${1}.begin(), ${1}.end()), ${1}.end());"
+                ],
+                "description": "unique"
+        },
+
+        // Ranges
+        "ranges reverse": {
+                "prefix": "Rreverse",
+                "body": [
+                  "ranges::reverse(${1:a});"
+                ],
+                "description": "ranges reverse"
+        },
+        "ranges sort": {
+                "prefix": "Rsort",
+                "body": [
+                  "ranges::sort(${1:a});"
+                ],
+                "description": "ranges sort"
+        },
+
+        // bits ops
+        "Count number of 1's": {
+                "prefix": "Popcount",
+                "body": [
+                  "__builtin_popcount(${1:value});"
+                ],
+                "description": "Count number of 1's"
+        },
+        "Count the number of leading zeros": {
+                "prefix": "clz",
+                "body": [
+                  "__builtin_clz(${1:value});"
+                ],
+                "description": "Count the number of leading zeros"
+        },
+        "Count the number of trailing zeros": {
+                "prefix": "ctz",
+                "body": [
+                  "__builtin_ctz(${1:value});"
+                ],
+                "description": "Count the number of trailing zeros"
+        },
+
+        // typdefs
+        "long long": {
+                "prefix": "LL",
+                "body": [
+                        "long long"
+                ],
+        },
+        "long double": {
+                "prefix": "LD",
+                "body": [
+                        "long double"
+                ],
+        },
+
+        // containers
+        "pair": {
+                "prefix": "Pair",
+                "body": [
+                  "std::pair<${1:int}, ${2:int}>"
+                ],
+                "description": "pair"
+        },
+        "array": {
+                "prefix": "Array",
+                "body": [
+                  "std::array<${1:int}, ${2:states}>"
+                ],
+                "description": "array"
+        },
+        "vector": {
+                "prefix": "Vector",
+                "body": [
+                  "std::vector<${1:int}>"
+                ],
+                "description": "vector"
+        },
+        "vector 2d": {
+                "prefix": "Vector_2",
+                "body": [
+                  "vector<vector<${1:int}>>"
+                ],
+                "description": "vector 2d"
+        },
+        "vector 3d": {
+                "prefix": "Vector_3",
+                "body": [
+                  "vector<vector<vector<${1:int}>>>"
+                ],
+                "description": "vector 3d"
+        },
+        "max_heap": {
+                "prefix": "max_heap",
+                "body": [
+                  "priority_queue<${1:int}>"
+                ],
+                "description": "priority_queue"
+        },
+        "min_heap": {
+                "prefix": "min_heap",
+                "body": [
+                  "priority_queue<${1:int}, vector<${1}>, greater<${1}>>"
+                ],
+                "description": "min_heap"
+        },
+        "set": {
+                "prefix": "Set",
+                "body": [
+                  "set<${1:int}>"
+                ],
+                "description": "set"
+        },
+        "set greater": {
+                "prefix": "Set_greater",
+                "body": [
+                  "set<${1:int}, greater<${1}>>"
+                ],
+                "description": "set greater"
+        },
+        "multiset": {
+                "prefix": "MultiSet",
+                "body": [
+                  "multiset<${1:int}>"
+                ],
+                "description": "multiset"
+        },
+        "multiset greater": {
+                "prefix": "MultiSet_greater",
+                "body": [
+                  "multiset<${1:int}, greater<${1}>>"
+                ],
+                "description": "multiset greate"
+        },
+        "map": {
+                "prefix": "Map",
+                "body": [
+                  "map<${1:int}, ${2:int}>"
+                ],
+                "description": "map"
+        },
+        "map greater": {
+                "prefix": "Map_greater",
+                "body": [
+                       "map<${1:int}, ${2:int}, greater<${1}>>"
+                ],
+                "description": "map greater"
+        },
+
+        // End
+        "YES": {
+                "prefix": "YES",
+                "body": [
+                  "{",
+                  "\tcout << \"YES\\n\";",
+                  "\treturn;",
+                  "}${0}"
+                ],
+                "description": "YES"
+        },
+        "NO": {
+                "prefix": "NO",
+                "body": [
+                  "{",
+                  "\tcout << \"NO\\n\";",
+                  "\treturn;",
+                  "}${0}"
+                ],
+                "description": "NO"
+        },
+        "Yes": {
+                "prefix": "Yes",
+                "body": [
+                  "{",
+                  "\tcout << \"Yes\\n\";",
+                  "\treturn;",
+                  "}${0}"
+                ],
+                "description": "Yes"
+        },
+        "No": {
+                "prefix": "No",
+                "body": [
+                  "{",
+                  "\tcout << \"No\\n\";",
+                  "\treturn;",
+                  "}${0}"
+                ],
+                "description": "No"
+        },
+        "Sio": {
+                "prefix": "Sio",
+                "body": [
+                  "{",
+                  "\tcout << \"-1\\n\";",
+                  "\treturn;",
+                  "}${0}"
+                ],
+                "description": "-1"
+        },
+        "Ckill": {
+                "prefix": "Ckill",
+                "body": [
+                  "{",
+                  "\tcout << \"${1:Print}\\n\";",
+                  "\treturn;",
+                  "}${0}"
+                ],
+                "description": "-1"
+        },
+        "Lambda": {
+                "prefix": "Lambda",
+                "body": [
+                        "auto rec = [&](${1:Args}) -> ${2:return_type} {",
+                        "\t${0}",
+                        "};"
+                ],
+                "description": "lambda function"
+        },
+        "size": {
+                "prefix": "Size",
+                "body": [
+                  "(int)${1:a}.size()"
+                ],
+                "description": "size"
+        },
+        "LOCAL DEBUG": {
+                "prefix": "Interactive",
+                "body": [
+                  "#ifdef Kaushal_26",
+                  "\t${1}",
+                  "#else",
+                  "\t${2}",
+                  "#endif"
+                ],
+                "description": "LOCAL DEBUG"
+        },
+}

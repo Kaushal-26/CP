@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "5aa87370-42bd-4153-9aca-3af1f219d18c",
+    "size": 8
+  },
+  "createdAt": "2025-09-12T00:09:22+05:30",
+  "group": "Codeforces - Kotlin Heroes: Practice 13",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CYetnotherrokenKeoard"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "C. YetnotherrokenKeoard",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "12\nARaBbbitBaby\nYetAnotherBrokenKeyboard\nBubble\nImprobable\nabbreviable\nBbBB\nBusyasaBeeinaBedofBloomingBlossoms\nCoDEBARbIES\ncodeforces\nbobebobbes\nb\nTheBBlackbboard\n",
+      "output": "ity\nYetnotherrokenKeoard\nle\nImprle\nrevile\n\nusyasaeeinaedofloominglossoms\nCDARIES\ncodeforces\nes\n\nhelaoard\n"
+    }
+  ],
+  "timeLimit": 1000,
+  "url": "https://codeforces.com/contest/2142/problem/C"
+}

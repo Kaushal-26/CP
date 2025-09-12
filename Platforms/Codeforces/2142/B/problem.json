@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "5aa87370-42bd-4153-9aca-3af1f219d18c",
+    "size": 8
+  },
+  "createdAt": "2025-09-12T00:09:22+05:30",
+  "group": "Codeforces - Kotlin Heroes: Practice 13",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BDislikeOfThrees"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "B. Dislike of Threes",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "10\n1\n2\n3\n4\n5\n6\n7\n8\n9\n1000\n",
+      "output": "1\n2\n4\n5\n7\n8\n10\n11\n14\n1666\n"
+    }
+  ],
+  "timeLimit": 1000,
+  "url": "https://codeforces.com/contest/2142/problem/B"
+}

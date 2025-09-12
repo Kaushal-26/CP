@@ -1,0 +1,35 @@
+{
+  "batch": {
+    "id": "5aa87370-42bd-4153-9aca-3af1f219d18c",
+    "size": 8
+  },
+  "createdAt": "2025-09-12T00:09:22+05:30",
+  "group": "Codeforces - Kotlin Heroes: Practice 13",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "HDesktopRearrangement"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "H. Desktop Rearrangement",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "4 4 8\n..**\n.*..\n*...\n...*\n1 3\n2 3\n3 1\n2 3\n3 4\n4 3\n2 3\n2 2\n",
+      "output": "3\n4\n4\n3\n4\n5\n5\n5\n"
+    },
+    {
+      "input": "2 5 5\n*...*\n*****\n1 3\n2 2\n1 3\n1 5\n2 3\n",
+      "output": "2\n3\n3\n3\n2\n"
+    }
+  ],
+  "timeLimit": 3000,
+  "url": "https://codeforces.com/contest/2142/problem/H"
+}

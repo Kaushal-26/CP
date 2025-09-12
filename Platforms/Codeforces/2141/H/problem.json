@@ -1,0 +1,39 @@
+{
+  "batch": {
+    "id": "6fea4f10-7f37-49f7-9f2c-d84a04b6137b",
+    "size": 9
+  },
+  "createdAt": "2025-09-12T20:05:36+05:30",
+  "group": "Codeforces - Kotlin Heroes: Episode 13",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "HMergingVerticesInAGraph"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "H. Merging Vertices in a Graph",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5 7\n1 2\n3 2\n2 4\n3 5\n1 4\n5 1\n4 3\n",
+      "output": "1 4\n"
+    },
+    {
+      "input": "4 3\n1 2\n1 3\n1 4\n",
+      "output": "0 0\n"
+    },
+    {
+      "input": "200000 0\n",
+      "output": "199999 199999\n"
+    }
+  ],
+  "timeLimit": 3000,
+  "url": "https://codeforces.com/contest/2141/problem/H"
+}

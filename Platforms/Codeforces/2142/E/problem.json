@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "5aa87370-42bd-4153-9aca-3af1f219d18c",
+    "size": 8
+  },
+  "createdAt": "2025-09-12T00:09:22+05:30",
+  "group": "Codeforces - Kotlin Heroes: Practice 13",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "EIvaPav"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "E. Iva \u0026 Pav",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3\n5\n15 14 17 42 34\n3\n1 7\n2 15\n4 5\n5\n7 5 3 1 7\n4\n1 7\n5 7\n2 3\n2 2\n7\n19 20 15 12 21 7 11\n4\n1 15\n4 4\n7 12\n5 7\n",
+      "output": "2 -1 5\n1 5 2 2\n2 6 -1 5\n"
+    }
+  ],
+  "timeLimit": 5000,
+  "url": "https://codeforces.com/contest/2142/problem/E"
+}

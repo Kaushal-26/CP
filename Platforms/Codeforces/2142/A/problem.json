@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "5aa87370-42bd-4153-9aca-3af1f219d18c",
+    "size": 8
+  },
+  "createdAt": "2025-09-12T00:09:22+05:30",
+  "group": "Codeforces - Kotlin Heroes: Practice 13",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ASpyDetected"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "A. Spy Detected!",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "4\n4\n11 13 11 11\n5\n1 4 4 4 4\n10\n3 3 3 3 10 3 3 3 3 3\n3\n20 20 10\n",
+      "output": "2\n1\n5\n3\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2142/problem/A"
+}

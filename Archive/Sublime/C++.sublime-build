@@ -1,0 +1,28 @@
+  {
+    "cmd" : ["g++.exe", "-Wall", "-H", "-Wl,--stack=1073741824", "-D_GLIBCXX_DEBUG", "-O2",
+     "-std=c++20", "${file_name}", "-o", "${file_base_name}.exe", "&&","start","cmd","/k","${file_base_name}.exe"],
+    // "cmd" : [ "g++", "-std=c++20", "-H" ,"-Wall" ,"-Wl,--stack=2684354560" ,"-D_GLIBCXX_DEBUG" , "-O2", "${file_name}", "-o" ,
+    //           "${file_base_name}.exe", "&&","start","cmd","/k","${file_base_name}.exe"],
+    "file_regex" : "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "shell" : true,
+    "working_dir" : "$file_path",
+    "selector" : "source.cpp",
+
+    "variants" : [
+      {
+        "name" : "debugger",
+        "cmd" : ["g++.exe", "-Wall", "-H", "-Wl,--stack=1073741824", "-D_GLIBCXX_DEBUG", "-O2", "-DKaushal_26",
+     "-std=c++20", "${file_name}", "-o", "${file_base_name}.exe", "&&","start","cmd","/k","${file_base_name}.exe"],
+    "file_regex" : "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir" : "$file_path",
+      },
+
+      {
+        "name" : "file_input_output",
+          "shell_cmd" : "g++ -std=c++20 -Wall -H -Wl,--stack=1073741824 -D_GLIBCXX_DEBUG -DLOCAL -O2 ${file_name} -o ${file_base_name}.exe && ${file_base_name}.exe",
+    "file_regex" : "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir" : "$file_path",
+    "selector" : "source.cpp",
+      }
+    ]
+}
