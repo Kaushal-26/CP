@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "3d89ae62-2c7c-424f-ba9e-b94e781ce1b6",
+    "size": 7
+  },
+  "createdAt": "2025-09-13T20:05:35+05:30",
+  "group": "Codeforces - Codeforces Round 1050 (Div. 4)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CPacer"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "C. Pacer",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3\n2 4\n2 1\n4 0\n2 7\n1 1\n4 0\n4 9\n1 0\n2 0\n6 1\n9 0\n",
+      "output": "2\n7\n6\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2148/problem/C"
+}

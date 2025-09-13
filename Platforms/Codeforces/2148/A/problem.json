@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "3d89ae62-2c7c-424f-ba9e-b94e781ce1b6",
+    "size": 7
+  },
+  "createdAt": "2025-09-13T20:05:35+05:30",
+  "group": "Codeforces - Codeforces Round 1050 (Div. 4)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ASublimeSequence"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "A. Sublime Sequence",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "4\n1 4\n2 5\n3 6\n4 7\n",
+      "output": "0\n2\n0\n4\n"
+    }
+  ],
+  "timeLimit": 1000,
+  "url": "https://codeforces.com/contest/2148/problem/A"
+}
