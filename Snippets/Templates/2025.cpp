@@ -4,7 +4,6 @@ int main() {
         std::cin.tie(0) -> sync_with_stdio(0);
 
         auto solve = [&]() -> void {
-
         };
 
         int testcases = 1; std::cin >> testcases;
