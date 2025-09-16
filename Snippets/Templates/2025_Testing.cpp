@@ -3,8 +3,9 @@
 #ifdef Kaushal_26
         #include <debug.h>
 #else    
-        #define clog                        if (0) cerr
-        #define DB(...)                     42
+        #define clog                            if (0) std::cerr
+        #define dbg(...)                        42
+        #define DB(...)                         42
 #endif
 
 int main() {
