@@ -1,0 +1,39 @@
+{
+  "batch": {
+    "id": "e2096000-4e19-4b66-bd39-4124ebda3cfe",
+    "size": 7
+  },
+  "createdAt": "2025-09-15T20:33:25+05:30",
+  "group": "Codeforces - Educational Codeforces Round 182 (Rated for Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FBracketGroups"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "F. Bracket Groups",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3 6\n)))\n(((\n(())\n",
+      "output": "1\n(()())\n3\n1 2 3\n"
+    },
+    {
+      "input": "4 6\n(()\n()(\n())\n((((((\n",
+      "output": "2\n(())()\n1\n2\n()()()\n3\n1 4 3\n"
+    },
+    {
+      "input": "2 6\n()\n)(\n",
+      "output": "-1\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2144/problem/F"
+}

@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "e2096000-4e19-4b66-bd39-4124ebda3cfe",
+    "size": 7
+  },
+  "createdAt": "2025-09-15T20:33:25+05:30",
+  "group": "Codeforces - Educational Codeforces Round 182 (Rated for Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "E1LookingAtTowersEasyVersion"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "E1. Looking at Towers (easy version)",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5\n5\n4 2 4 8 3\n5\n1 2 3 2 1\n6\n1 2 3 3 2 1\n9\n3 5 5 7 4 6 7 2 4\n1\n10\n",
+      "output": "5\n1\n3\n51\n1\n"
+    }
+  ],
+  "timeLimit": 4000,
+  "url": "https://codeforces.com/contest/2144/problem/E1"
+}
