@@ -2,7 +2,7 @@
 
 # Compiler and flags
 CXX := g++
-CXXFLAGS := -std=c++23 -DKaushal_26 -Wall -Wextra -Wno-unused-result -fconcepts -g -O2 -D_GLIBCXX_DEBUG -I libs/
+CXXFLAGS := -std=c++23 -DKaushal_26 -Wall -Wextra -Wno-unused-result -fconcepts -g -O2 -D_GLIBCXX_DEBUG -I ~/CP/libs/
 
 # ANSI color codes
 BLUE := $(shell tput -Txterm setaf 6)
