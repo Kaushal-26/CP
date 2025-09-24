@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "3931c60d-bfe7-4a67-961e-b3712c28529a",
+    "size": 8
+  },
+  "createdAt": "2025-09-24T17:05:26+05:30",
+  "group": "Codeforces - Codeforces Round 1053 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ELimitedEditionShop"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "E. Limited Edition Shop",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "8\n3\n1 -1 1\n3 1 2\n2 3 1\n3\n-2 5 2\n3 1 2\n2 3 1\n3\n-1 -2 -3\n3 1 2\n2 3 1\n3\n1000000000 1000000000 1000000000\n3 1 2\n2 3 1\n4\n5 -15 10 -5\n2 4 3 1\n1 4 2 3\n4\n-5 -5 -5 100\n2 3 1 4\n4 1 2 3\n4\n-1 -100 5 10\n1 2 3 4\n2 3 4 1\n12\n-4 6 10 10 1 -8 6 2 -8 -4 0 -6\n11 12 7 3 6 8 1 5 10 2 9 4\n7 5 3 6 1 2 8 12 9 4 10 11\n",
+      "output": "2\n5\n0\n3000000000\n10\n85\n14\n24\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2151/problem/E"
+}

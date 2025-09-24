@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "3931c60d-bfe7-4a67-961e-b3712c28529a",
+    "size": 8
+  },
+  "createdAt": "2025-09-24T17:05:26+05:30",
+  "group": "Codeforces - Codeforces Round 1053 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "G2HiddenSingleVersion2"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "G2. Hidden Single (Version 2)",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "1\n300\n\n0\n",
+      "output": "\n\n? 187 1 1\n\n! 187\n"
+    }
+  ],
+  "timeLimit": 5000,
+  "url": "https://codeforces.com/contest/2151/problem/G2"
+}

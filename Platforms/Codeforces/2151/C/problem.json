@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "3931c60d-bfe7-4a67-961e-b3712c28529a",
+    "size": 8
+  },
+  "createdAt": "2025-09-24T17:05:26+05:30",
+  "group": "Codeforces - Codeforces Round 1053 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CIncrementalStay"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "C. Incremental Stay",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3\n1\n32 78\n2\n4 5 6 9\n4\n6149048 26582657 36124499 43993239 813829899 860114890 910238130 913669539\n",
+      "output": "46\n4 6\n78018749 1737022233 1845329695 3385003015\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2151/problem/C"
+}

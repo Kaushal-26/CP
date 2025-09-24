@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "3931c60d-bfe7-4a67-961e-b3712c28529a",
+    "size": 8
+  },
+  "createdAt": "2025-09-24T17:05:26+05:30",
+  "group": "Codeforces - Codeforces Round 1053 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FAttractionTheory"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "F. Attraction Theory",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "7\n1\n1\n2\n5 10\n3\n1 1 1\n4\n1 1 1 1\n4\n10 2 9 7\n5\n1000000000 1000000000 1000000000 1000000000 1000000000\n8\n100 2 34 59 34 27 5 6\n",
+      "output": "1\n45\n24\n72\n480\n333572930\n69365\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2151/problem/F"
+}

@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "3931c60d-bfe7-4a67-961e-b3712c28529a",
+    "size": 8
+  },
+  "createdAt": "2025-09-24T17:05:26+05:30",
+  "group": "Codeforces - Codeforces Round 1053 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "G1HiddenSingleVersion1"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "G1. Hidden Single (Version 1)",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "2\n2\n\n0\n\n3\n\n1\n\n1\n\n1\n\n1\n",
+      "output": "\n\n? 1 2 1 2\n\n! 1\n\n? 1 2 1 4\n\n? 2 2 1 4\n\n? 2 1 2\n\n? 1 1 5\n\n! 3\n"
+    }
+  ],
+  "timeLimit": 5000,
+  "url": "https://codeforces.com/contest/2151/problem/G1"
+}
