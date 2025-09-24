@@ -2,6 +2,7 @@
 
 int main() {
         std::cin.tie(0) -> sync_with_stdio(0);
+        std::cin.exceptions(std::ios::badbit | std::ios::failbit);
 
         auto solve = [&]() -> void {
         };
