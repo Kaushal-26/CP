@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "fb86b895-6747-4563-bc2c-cafbd75e5593",
+    "size": 9
+  },
+  "createdAt": "2025-10-03T20:26:49+05:30",
+  "group": "Codeforces - Squarepoint Challenge (Codeforces Round 1055, Div. 1 + Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "H2VictoriousColoringHardVersion"
+    }
+  },
+  "memoryLimit": 1024,
+  "name": "H2. Victorious Coloring (Hard Version)",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "2\n5\n3 5 10\n2 3 4\n3 1 10\n3 4 2\n5\n28\n32\n11\n17\n23\n2\n1 2 3\n1\n1\n",
+      "output": "88\n108\n21\n42\n66\n1\n"
+    }
+  ],
+  "timeLimit": 3000,
+  "url": "https://codeforces.com/contest/2152/problem/H2"
+}

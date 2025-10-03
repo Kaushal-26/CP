@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "fb86b895-6747-4563-bc2c-cafbd75e5593",
+    "size": 9
+  },
+  "createdAt": "2025-10-03T20:26:49+05:30",
+  "group": "Codeforces - Squarepoint Challenge (Codeforces Round 1055, Div. 1 + Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DDivisionVersusAddition"
+    }
+  },
+  "memoryLimit": 1024,
+  "name": "D. Division Versus Addition",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "2\n5 5\n4 3 2 5 6\n1 1\n1 2\n2 4\n3 5\n1 5\n10 1\n314 159 265 358 979 323 846 264 338 327\n1 10\n",
+      "output": "2\n3\n5\n6\n10\n91\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2152/problem/D"
+}

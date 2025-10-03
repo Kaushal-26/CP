@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "fb86b895-6747-4563-bc2c-cafbd75e5593",
+    "size": 9
+  },
+  "createdAt": "2025-10-03T20:26:49+05:30",
+  "group": "Codeforces - Squarepoint Challenge (Codeforces Round 1055, Div. 1 + Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "GQueryJungle"
+    }
+  },
+  "memoryLimit": 1024,
+  "name": "G. Query Jungle",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "2\n7\n0 1 0 1 1 0 0\n1 6\n1 7\n7 3\n3 2\n7 5\n5 4\n4\n2\n4\n6\n7\n2\n0 1\n1 2\n2\n2\n1\n",
+      "output": "2\n1\n1\n2\n3\n1\n0\n1\n"
+    }
+  ],
+  "timeLimit": 3000,
+  "url": "https://codeforces.com/contest/2152/problem/G"
+}
