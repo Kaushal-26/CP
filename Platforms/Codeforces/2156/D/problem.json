@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "50450ab9-369e-44b3-8a7c-b0c0f8bf1d66",
+    "size": 7
+  },
+  "createdAt": "2025-10-24T20:09:51+05:30",
+  "group": "Codeforces - Codeforces Round 1061 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DFindTheLastNumber"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "D. Find the Last Number",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "2\n2\n\n0\n\n1\n\n3\n\n1\n\n0\n\n1\n",
+      "output": "\n\n? 1 1\n\n? 1 2\n\n! 1\n\n? 1 3\n\n? 1 2\n\n? 2 3\n\n! 2\n"
+    }
+  ],
+  "timeLimit": 3000,
+  "url": "https://codeforces.com/contest/2156/problem/D"
+}

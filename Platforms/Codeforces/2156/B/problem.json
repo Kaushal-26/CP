@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "50450ab9-369e-44b3-8a7c-b0c0f8bf1d66",
+    "size": 7
+  },
+  "createdAt": "2025-10-24T20:09:51+05:30",
+  "group": "Codeforces - Codeforces Round 1061 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BStrangeMachine"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "B. Strange Machine",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3\n2 2\nBA\n3 4\n1 1\nB\n20\n6 4\nBAABBA\n2 8 32 95\n",
+      "output": "2\n3\n5\n2\n5\n8\n11\n"
+    }
+  ],
+  "timeLimit": 1500,
+  "url": "https://codeforces.com/contest/2156/problem/B"
+}

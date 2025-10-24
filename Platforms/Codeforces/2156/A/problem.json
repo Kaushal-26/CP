@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "50450ab9-369e-44b3-8a7c-b0c0f8bf1d66",
+    "size": 7
+  },
+  "createdAt": "2025-10-24T20:09:51+05:30",
+  "group": "Codeforces - Codeforces Round 1061 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "APizzaTime"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "A. Pizza Time",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3\n8\n4\n3\n",
+      "output": "3\n1\n1\n"
+    }
+  ],
+  "timeLimit": 1000,
+  "url": "https://codeforces.com/contest/2156/problem/A"
+}
