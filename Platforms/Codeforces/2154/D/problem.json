@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "e88da098-1705-49b9-93c7-d8b24c768cb0",
+    "size": 8
+  },
+  "createdAt": "2025-10-19T20:08:00+05:30",
+  "group": "Codeforces - Codeforces Round 1060 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DCatshock"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "D. Catshock",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "4\n5\n1 2\n2 3\n1 5\n5 4\n2\n1 2\n4\n1 2\n1 3\n1 4\n6\n1 2\n1 3\n3 4\n4 5\n4 6\n",
+      "output": "2\n2 2\n1\n\n1\n1\n\n5\n2 2\n1\n1\n2 3\n1\n\n9\n2 2\n1\n2 1\n1\n2 3\n1\n1\n2 5\n1\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2154/problem/D"
+}

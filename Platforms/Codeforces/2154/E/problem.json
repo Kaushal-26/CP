@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "e88da098-1705-49b9-93c7-d8b24c768cb0",
+    "size": 8
+  },
+  "createdAt": "2025-10-19T20:08:00+05:30",
+  "group": "Codeforces - Codeforces Round 1060 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ENoMindToThink"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "E. No Mind To Think",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "7\n5 1\n1 1 5 5 5\n3 1\n10 1 2\n6 3\n1 1 2 3 1 2\n5 1\n1 2 2 3 5\n3 1\n332473521 409066963 155613323\n6 6\n81 71 90 15 87 36\n7 2\n4 13 11 19 15 16 10\n",
+      "output": "25\n13\n13\n14\n997420563\n522\n105\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2154/problem/E"
+}

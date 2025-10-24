@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "e88da098-1705-49b9-93c7-d8b24c768cb0",
+    "size": 8
+  },
+  "createdAt": "2025-10-19T20:08:00+05:30",
+  "group": "Codeforces - Codeforces Round 1060 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "C2NoCostTooGreatHardVersion"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "C2. No Cost Too Great (Hard Version)",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "6\n2\n1 1\n1 2\n2\n4 8\n41 67\n5\n1 1 727 1 1\n1 1 1000 1 1\n2\n3 11\n1 1\n3\n2 7 11\n1 6 6\n3\n2 7 11\n100 1 2\n",
+      "output": "3\n0\n2\n1\n5\n1\n"
+    }
+  ],
+  "timeLimit": 3000,
+  "url": "https://codeforces.com/contest/2154/problem/C2"
+}
