@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "1e3e5b93-959a-4b74-8b62-cd985f0107bd",
+    "size": 9
+  },
+  "createdAt": "2025-11-20T20:06:05+05:30",
+  "group": "Codeforces - Codeforces Round 1065 (Div. 3)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "HShioriMiyagiAndMaximumArrayScore"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "H. Shiori Miyagi and Maximum Array Score",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "6\n4 20\n6 6\n6 216\n3 500\n2 8\n5 29\n",
+      "output": "7\n5\n19\n13\n3\n9\n"
+    }
+  ],
+  "timeLimit": 4000,
+  "url": "https://codeforces.com/contest/2171/problem/H"
+}
