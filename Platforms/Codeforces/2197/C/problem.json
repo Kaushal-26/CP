@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "4b464329-c90e-47ef-9aa8-47bc4b90e84e",
+    "size": 7
+  },
+  "createdAt": "2026-02-11T20:13:33+05:30",
+  "group": "Codeforces - Codeforces Round 1079 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CGameWithAFraction"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "C. Game with a Fraction",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "6\n4 6\n10 14\n15 15\n7 12\n7000000000000000 10487275715782582\n1000000000000000000 1000000000000000000\n",
+      "output": "Bob\nBob\nAlice\nAlice\nBob\nAlice\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2197/problem/C"
+}

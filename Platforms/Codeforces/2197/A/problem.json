@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "4b464329-c90e-47ef-9aa8-47bc4b90e84e",
+    "size": 7
+  },
+  "createdAt": "2026-02-11T20:13:33+05:30",
+  "group": "Codeforces - Codeforces Round 1079 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "AFriendlyNumbers"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "A. Friendly Numbers",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3\n1\n18\n998244360\n",
+      "output": "0\n10\n10\n"
+    }
+  ],
+  "timeLimit": 1000,
+  "url": "https://codeforces.com/contest/2197/problem/A"
+}

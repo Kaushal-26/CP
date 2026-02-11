@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "4b464329-c90e-47ef-9aa8-47bc4b90e84e",
+    "size": 7
+  },
+  "createdAt": "2026-02-11T20:13:33+05:30",
+  "group": "Codeforces - Codeforces Round 1079 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FDoubleBracketSequence"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "F. Double Bracket Sequence",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5\n2\n[)\n4\n[)[(\n4\n))[[\n4\n([)]\n6\n[)]](]\n",
+      "output": "1\n2\n2\n0\n2\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2197/problem/F"
+}

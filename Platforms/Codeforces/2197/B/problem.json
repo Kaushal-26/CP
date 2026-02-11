@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "4b464329-c90e-47ef-9aa8-47bc4b90e84e",
+    "size": 7
+  },
+  "createdAt": "2026-02-11T20:13:33+05:30",
+  "group": "Codeforces - Codeforces Round 1079 (Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BArrayAndPermutation"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "B. Array and Permutation",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "6\n3\n1 2 3\n1 2 2\n4\n3 1 2 4\n3 4 2 2\n5\n1 3 2 5 4\n3 3 3 5 4\n7\n3 7 4 2 1 6 5\n3 3 4 4 5 6 5\n7\n1 2 3 4 5 6 7\n7 7 7 7 7 7 7\n7\n1 3 2 7 5 4 6\n2 2 7 7 7 5 6\n",
+      "output": "YES\nNO\nYES\nNO\nYES\nYES\n"
+    }
+  ],
+  "timeLimit": 1500,
+  "url": "https://codeforces.com/contest/2197/problem/B"
+}
