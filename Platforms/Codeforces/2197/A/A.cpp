@@ -7,14 +7,15 @@ int main() {
         auto solve = [&]() -> void {
                 int N; std::cin >> N;
 
-                int ct = 0;
-                for (int i = 1; i <= 1000; ++i) {
-                        int j = i + N, x = 0;
-                        while (j) x += j % 10, j /= 10;
-                        ct += i == x;
+                int a[N];
+                for (int i = 0; i < N; ++i) std::cin >> a[i];
+
+                for (int i = 0; i < N; ++i) if (a[i] == 67) {
+                        std::cout << "YES\n";
+                        return;
                 }
 
-                std::cout << ct << "\n";
+                std::cout << "NO\n";
         };
 
         int testcases = 1; std::cin >> testcases;

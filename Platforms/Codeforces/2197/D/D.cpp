@@ -10,12 +10,31 @@ int main() {
                 std::vector<int> A(N);
                 for (auto &a : A) std::cin >> a;
 
+                std::map<int, std::set<int>> M;
+                for (int i = 0; i < N; ++i) M[A[i]].insert(i);
+
                 int res = 0;
                 for (int dis = 1; dis < N; ++dis) {
-                        for (int i = 0; i + dis < N; i++) {
-                                if ((int64_t(A[i]) * A[i + dis]) == dis) {
-                                        ++ res;
+                        for (int i = 1; i * i <= dis; i++) if (dis % i == 0) {
+                                int j = dis / i;
+                                int ct = 0;
+                                if ((int) M[i].size() > (int) M[j].size()) {
+                                        for (auto &m : M[j]) {
+                                                if (M[i].find(m - dis) != M[i].end() || M[i].find(m + dis) != M[i].end()) {
+                                                        ct ++;
+                                                }
+                                        }
+                                } else {
+                                        for (auto &m : M[i]) {
+                                                if (M[j].find(m - dis) != M[j].end() || M[j].find(m + dis) != M[j].end()) {
+                                                        ct ++;
+                                                }
+                                        }
                                 }
+                                if (i * i == dis) ct /= 2;
+
+                                std::cout << dis << " " << i << " " << ct << "\n";
+                                res += ct;
                         }
                 }
 
