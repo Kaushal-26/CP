@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "499534f5-e23b-409a-877a-65f949517baa",
+    "size": 9
+  },
+  "createdAt": "2026-03-02T20:05:21+05:30",
+  "group": "Codeforces - Kotlin Heroes: Episode 14",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "GJammer"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "G. Jammer",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "6\n1 1 1\n10 5 3\n3 6 3\n4 2 3\n1000000000 1 2\n1 1000000000 499999999\n",
+      "output": "0\n16\n6\n0\n1999999992\n4\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2199/problem/G"
+}

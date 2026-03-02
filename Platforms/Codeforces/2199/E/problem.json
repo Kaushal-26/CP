@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "499534f5-e23b-409a-877a-65f949517baa",
+    "size": 9
+  },
+  "createdAt": "2026-03-02T20:05:21+05:30",
+  "group": "Codeforces - Kotlin Heroes: Episode 14",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ESupersequence"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "E. Supersequence",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5 16\n4 1 1 5 9\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16\n",
+      "output": "4 3 2 1 0 1 2 3 4 5 6 7 8 9 -1 -1\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2199/problem/E"
+}

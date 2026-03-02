@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "499534f5-e23b-409a-877a-65f949517baa",
+    "size": 9
+  },
+  "createdAt": "2026-03-02T20:05:21+05:30",
+  "group": "Codeforces - Kotlin Heroes: Episode 14",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CMinesweeper"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "C. Minesweeper",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5\n1\n4\n8\n10\n9\n",
+      "output": "YES\n1\n*\n.\nNO\nYES\n5\n*....\n...*.\nYES\n6\n.*..*.\n......\nNO\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2199/problem/C"
+}

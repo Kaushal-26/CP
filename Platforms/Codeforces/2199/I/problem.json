@@ -1,0 +1,39 @@
+{
+  "batch": {
+    "id": "499534f5-e23b-409a-877a-65f949517baa",
+    "size": 9
+  },
+  "createdAt": "2026-03-02T20:05:21+05:30",
+  "group": "Codeforces - Kotlin Heroes: Episode 14",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "IStrangeProcess"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "I. Strange Process",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "4 3\n4 2 3\n",
+      "output": "21\n"
+    },
+    {
+      "input": "2 4\n1 2 3 4\n",
+      "output": "51\n"
+    },
+    {
+      "input": "1 2\n47 34\n",
+      "output": "3\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2199/problem/I"
+}

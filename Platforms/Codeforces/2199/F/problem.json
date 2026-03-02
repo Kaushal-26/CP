@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "499534f5-e23b-409a-877a-65f949517baa",
+    "size": 9
+  },
+  "createdAt": "2026-03-02T20:05:21+05:30",
+  "group": "Codeforces - Kotlin Heroes: Episode 14",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FSelfProducedSequences"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "F. Self-Produced Sequences",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5\n3\n1 1 2\n2\n0 0\n5\n0 1 0 1 0\n6\n1 0 2 2 1 1\n11\n2 0 3 1 0 0 2 3 0 3 2\n",
+      "output": "2\n4\n12\n8\n41\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2199/problem/F"
+}

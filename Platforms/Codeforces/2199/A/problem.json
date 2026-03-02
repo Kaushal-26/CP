@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "499534f5-e23b-409a-877a-65f949517baa",
+    "size": 9
+  },
+  "createdAt": "2026-03-02T20:05:21+05:30",
+  "group": "Codeforces - Kotlin Heroes: Episode 14",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "AGame"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "A. Game",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5\n6\n2 3\n1 4\n5\n3 1\n3 1\n3\n3 1\n3 1\n10\n0 1\n10 0\n4\n3 1\n3 1\n",
+      "output": "YES\nYES\nNO\nYES\nNO\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2199/problem/A"
+}

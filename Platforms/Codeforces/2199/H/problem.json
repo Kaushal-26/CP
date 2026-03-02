@@ -1,0 +1,39 @@
+{
+  "batch": {
+    "id": "499534f5-e23b-409a-877a-65f949517baa",
+    "size": 9
+  },
+  "createdAt": "2026-03-02T20:05:21+05:30",
+  "group": "Codeforces - Kotlin Heroes: Episode 14",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "HSumOfMEX"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "H. Sum of MEX",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5\n-1 1 -1 3 -1\n",
+      "output": "1 2 24 26 248\n"
+    },
+    {
+      "input": "7\n3 5 -1 -1 -1 -1 1\n",
+      "output": "0 0 1 17 223 2645 4906\n"
+    },
+    {
+      "input": "10\n3 8 5 1 0 0 7 2 2 8\n",
+      "output": "0 0 0 0 2 2 2 4 4 4\n"
+    }
+  ],
+  "timeLimit": 5000,
+  "url": "https://codeforces.com/contest/2199/problem/H"
+}
