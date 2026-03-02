@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "6a100e35-769a-49c4-a40c-f448b6fc0f55",
+    "size": 8
+  },
+  "createdAt": "2026-02-15T20:17:28+05:30",
+  "group": "Codeforces - Codeforces Round 1080 (Div. 3)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FParabolaIndependence"
+    }
+  },
+  "memoryLimit": 512,
+  "name": "F. Parabola Independence",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3\n4\n1 2 -1\n-3 0 -3\n-1 4 -5\n1 2 -4\n5\n3 0 0\n1 0 -5\n-3 0 0\n-1 0 10\n1 0 -10\n5\n884 -667 497\n680 -973 213\n23 -548 -412\n826 359 -333\n773 212 218\n",
+      "output": "3 2 3 3\n3 3 2 2 3\n3 3 3 1 2\n"
+    }
+  ],
+  "timeLimit": 3000,
+  "url": "https://codeforces.com/contest/2195/problem/F"
+}

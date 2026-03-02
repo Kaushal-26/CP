@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "6a100e35-769a-49c4-a40c-f448b6fc0f55",
+    "size": 8
+  },
+  "createdAt": "2026-02-15T20:17:28+05:30",
+  "group": "Codeforces - Codeforces Round 1080 (Div. 3)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ASieveOfErato67henes"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "A. Sieve of Erato67henes",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "2\n5\n1 7 6 7 67\n5\n1 3 5 7 8\n",
+      "output": "YES\nNO\n"
+    }
+  ],
+  "timeLimit": 1000,
+  "url": "https://codeforces.com/contest/2195/problem/A"
+}
