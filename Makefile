@@ -1,7 +1,7 @@
-.DEFAULT_GOAL := all
+.DEFAULT_GOAL := input
 
 # Compiler and flags
-CXX := g++
+CXX := g++-16
 CXXFLAGS := -std=c++23 -DKaushal_26 -Wall -Wextra -Wno-unused-result -fconcepts -g -O2 -D_GLIBCXX_DEBUG -I ~/CP/libs/
 
 # ANSI color codes
