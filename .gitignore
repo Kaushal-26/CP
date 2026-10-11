@@ -37,3 +37,4 @@ build/
 Languages/
 lib/
 libs/combined.cpp
+Platforms/**/Makefile
