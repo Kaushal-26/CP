@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "997ab151-fc07-4404-ba37-db4c556e014b",
+    "size": 9
+  },
+  "createdAt": "2026-10-11T22:14:47+05:30",
+  "group": "Codeforces - DeepInfra Round 1 (Codeforces Round 1126, Div. 1 + Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DTargetInfection"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "D. Target Infection",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "6\n1 5 5\n7 11\n2 4 3\n1 2\n5 6\n3 5 4\n1 3\n5 6\n8 8\n1 3 2\n10 12\n3 6 0\n1 1\n4 5\n10 12\n1 1000000000 1\n1000000000000000 1000000000000000\n",
+      "output": "7\n-1\n2\n9\n42\n999999876543210\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2271/problem/D"
+}

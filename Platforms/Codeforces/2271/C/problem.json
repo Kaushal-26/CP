@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "997ab151-fc07-4404-ba37-db4c556e014b",
+    "size": 9
+  },
+  "createdAt": "2026-10-11T22:14:47+05:30",
+  "group": "Codeforces - DeepInfra Round 1 (Codeforces Round 1126, Div. 1 + Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CXORProblem"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "C. XOR Problem",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "2\n1\n2\n",
+      "output": "3\n1 1 1\n7\n2 2 1 0 2 0 1\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2271/problem/C"
+}

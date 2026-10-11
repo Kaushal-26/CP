@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "997ab151-fc07-4404-ba37-db4c556e014b",
+    "size": 9
+  },
+  "createdAt": "2026-10-11T22:14:47+05:30",
+  "group": "Codeforces - DeepInfra Round 1 (Codeforces Round 1126, Div. 1 + Div. 2)",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FBeautifulPillers"
+    }
+  },
+  "memoryLimit": 256,
+  "name": "F. Beautiful Pillers",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5\n3\n1 2 3\n8\n5 3 2 5 1 7 9 9\n5\n1 1 1 1 1\n8\n1 2 3 4 4 3 2 1\n2\n1000000000 1000000000\n",
+      "output": "1\n1 3\n1\n5 7\n0\n2\n1 3\n8 3\n0\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://codeforces.com/contest/2271/problem/F"
+}
