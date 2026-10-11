@@ -1,4 +1,4 @@
-.DEFAULT_GOAL := input
+.DEFAULT_GOAL := all
 
 # Compiler and flags
 CXX := g++-16
