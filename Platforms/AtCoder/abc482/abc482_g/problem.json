@@ -1,0 +1,31 @@
+{
+  "batch": {
+    "id": "66e5c9b7-89d2-45cb-91c0-64603490dfac",
+    "size": 7
+  },
+  "createdAt": "2026-10-31T17:30:22+05:30",
+  "group": "AtCoder - AtCoder Beginner Contest 482",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "GDegreeHarmony2"
+    }
+  },
+  "memoryLimit": 1024,
+  "name": "G - Degree Harmony 2",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "3\n4 4\n2 2 1 1\n1 2\n1 3\n1 4\n2 3\n6 7\n3 3 1 1 1 1\n1 2\n1 3\n1 5\n2 3\n2 5\n3 4\n5 6\n10 12\n1 2 2 1 1 1 1 1 1 1\n1 2\n1 5\n1 8\n2 3\n2 4\n3 4\n5 6\n5 7\n6 7\n8 9\n8 10\n9 10\n",
+      "output": "3\n3\n5\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://atcoder.jp/contests/abc482/tasks/abc482_g"
+}

@@ -1,0 +1,39 @@
+{
+  "batch": {
+    "id": "66e5c9b7-89d2-45cb-91c0-64603490dfac",
+    "size": 7
+  },
+  "createdAt": "2026-10-31T17:30:22+05:30",
+  "group": "AtCoder - AtCoder Beginner Contest 482",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BBlankBingo"
+    }
+  },
+  "memoryLimit": 1024,
+  "name": "B - Blank Bingo",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": ".o..o\n..oo.\n.o..o\no.o..\no..oo\n",
+      "output": "2\n"
+    },
+    {
+      "input": "o..oo\n...o.\no.ooo\noo.o.\n.o.oo\n",
+      "output": "0\n"
+    },
+    {
+      "input": "o..o.\n.o...\n..o.o\n..o..\no...o\n",
+      "output": "1\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://atcoder.jp/contests/abc482/tasks/abc482_b"
+}

@@ -1,0 +1,35 @@
+{
+  "batch": {
+    "id": "66e5c9b7-89d2-45cb-91c0-64603490dfac",
+    "size": 7
+  },
+  "createdAt": "2026-10-31T17:30:22+05:30",
+  "group": "AtCoder - AtCoder Beginner Contest 482",
+  "input": {
+    "type": "stdin"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DWannabeZombie"
+    }
+  },
+  "memoryLimit": 1024,
+  "name": "D - Wannabe Zombie",
+  "output": {
+    "type": "stdout"
+  },
+  "testType": "single",
+  "tests": [
+    {
+      "input": "5\n2 4 10 14 18\n",
+      "output": "8\n7\n6\n6\n8\n"
+    },
+    {
+      "input": "9\n140322306 171833796 356303608 595703832 701965684 798563428 857902324 933683272 971602066\n",
+      "output": "415639880\n399884135\n307649229\n280821689\n280821689\n329120561\n358790009\n396680483\n415639880\n"
+    }
+  ],
+  "timeLimit": 2000,
+  "url": "https://atcoder.jp/contests/abc482/tasks/abc482_d"
+}
